@@ -14,6 +14,7 @@
 		A029131A1A084375000E3B51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02913191A084375000E3B51 /* Images.xcassets */; };
 		A029131D1A084375000E3B51 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A029131B1A084375000E3B51 /* LaunchScreen.xib */; };
 		A02913291A084375000E3B51 /* HW_DodgeballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02913281A084375000E3B51 /* HW_DodgeballTests.swift */; };
+		A06990C81A08601E00C967CD /* HomeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06990C71A08601E00C967CD /* HomeScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		A02913221A084375000E3B51 /* HW DodgeballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW DodgeballTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02913271A084375000E3B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A02913281A084375000E3B51 /* HW_DodgeballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_DodgeballTests.swift; sourceTree = "<group>"; };
+		A06990C71A08601E00C967CD /* HomeScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeScreen.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				A02913141A084375000E3B51 /* SecondViewController.swift */,
 				A02913161A084375000E3B51 /* Main.storyboard */,
 				A02913191A084375000E3B51 /* Images.xcassets */,
+				A06990C71A08601E00C967CD /* HomeScreen.xib */,
 				A029131B1A084375000E3B51 /* LaunchScreen.xib */,
 				A029130E1A084375000E3B51 /* Supporting Files */,
 			);
@@ -195,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06990C81A08601E00C967CD /* HomeScreen.xib in Resources */,
 				A02913181A084375000E3B51 /* Main.storyboard in Resources */,
 				A029131D1A084375000E3B51 /* LaunchScreen.xib in Resources */,
 				A029131A1A084375000E3B51 /* Images.xcassets in Resources */,
@@ -411,6 +415,7 @@
 				A029132E1A084375000E3B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A029132F1A084375000E3B51 /* Build configuration list for PBXNativeTarget "HW DodgeballTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				A02913311A084375000E3B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
